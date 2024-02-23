@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Dashboard</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .dashboard-container {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      width: 80%;
+      text-align: center;
+      color: #343a40;
+    }
+
+    .dashboard-container h2 {
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    .course-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .course-item {
+      background-color: #ffffff;
+      border: 1px solid #ced4da;
+      border-radius: 12px;
+      margin: 20px;
+      padding: 20px;
+      width: 30%;
+      box-sizing: border-box;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .course-item:hover {
+      transform: scale(1.05);
+    }
+
+    .course-item img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .course-item h3 {
+      margin-bottom: 10px;
+      color: #343a40;
+    }
+
+    .course-item p {
+      margin: 0;
+      color: #6c757d;
+    }
+
+    .logout-link {
+      margin-top: 30px;
+    }
+
+    .logout-link a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .logout-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard-container">
+    <h2>Welcome to Your Course Dashboard!</h2>
+
+    <div class="course-list">
+      <div class="course-item">
+        <img src="./modern-thin-frame-laptop-mockup_213110-104.avif" alt="Course 1">
+        <h3>Web Development Fundamentals</h3>
+        <p>Instructor: John Doe</p>
+        <p>Duration: 8 weeks</p>
+      </div>
+
+      <div class="course-item">
+        <img src="./modern-thin-frame-laptop-mockup_213110-104.avif" alt="Course 2">
+        <h3>Data Science Essentials</h3>
+        <p>Instructor: Jane Smith</p>
+        <p>Duration: 10 weeks</p>
+      </div>
+
+      <div class="course-item">
+        <img src="./modern-thin-frame-laptop-mockup_213110-104.avif" alt="Course 3">
+        <h3>Graphic Design Mastery</h3>
+        <p>Instructor: Emily Johnson</p>
+        <p>Duration: 6 weeks</p>
+      </div>
+
+      <div class="course-item">
+        <img src="./modern-thin-frame-laptop-mockup_213110-104.avif" alt="Course 4">
+        <h3>Mobile App Development</h3>
+        <p>Instructor: Alex Brown</p>
+        <p>Duration: 12 weeks</p>
+      </div>
+
+      <div class="course-item">
+        <img src="./modern-thin-frame-laptop-mockup_213110-104.avif" alt="Course 5">
+        <h3>Marketing Strategies</h3>
+        <p>Instructor: Samantha White</p>
+        <p>Duration: 8 weeks</p>
+      </div>
+    </div>
+
+    <div class="logout-link">
+      <p>Logout <a href="login.html">here</a>.</p>
+    </div>
+  </div>
+
+</body>
+</html>
